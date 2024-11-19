@@ -144,6 +144,65 @@ console.log(numbers);
 // push-added last element in array|| pop- remove last element in array
 // unshift-added first element in array|| shift- remove frist element in array
 
+let marks = [60, 65, 70, 78, 80, 86, 90];
+console.log(marks);
+
+//  push-added last element in array|| pop- remove last element in array
+marks.push(92);
+console.log(marks);
+marks.pop();
+console.log(marks);
+
+
+// unshift-added first element in array|| shift- remove frist element in array
+marks.unshift(56);
+console.log(marks);
+marks.shift();
+console.log(marks);
+
+
+//-----------------------
+
+let fruits = ['apple', 'mango', 'graps', 'orange']
+
+console.log(fruits);
+//chack index number valu
+console.log(fruits.indexOf('graps'));
+// chack valu include this array
+console.log(fruits.includes('apple'));
+
+// change valu in array
+
+fruits[2] = 'jambura';
+console.log(fruits);
+
+// added two or more arrays
+
+let arry1 = [25, 35, 65, 70, 80];
+let arry2 = [55, 75, 85, 90, 100];
+let arry3 = [101, 154, 365, 485, 558]
+
+let children = arry1.concat(arry2);
+console.log(children);
+
+
+
+let children2 = arry1.concat(arry2, arry3);
+console.log(children2);
+
+
+
+// usecase of for-----------------------
+
+const animals = ['cat', 'rat', 'duck', 'dog', 'cow' ];
+
+for(const animal of animals){
+console.log(animal);
+console.log('I love them');
+}
+
+
+
 
 
 
