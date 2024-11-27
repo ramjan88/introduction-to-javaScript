@@ -54,7 +54,7 @@ while(num3 <= 20){
  * for loop ---------------
  */
 
-
+// incrimental loop
 
 for(let p = 1; p <= 10; p = p + 1){
   console.log(p);
@@ -62,10 +62,38 @@ for(let p = 1; p <= 10; p = p + 1){
 
 
 
+let sum1 = 0;
+for(let q = 1; q <= 10; q = q + 1){
+  sum1 = sum1 + q;
+  console.log(q);
+}
+
+console.log( 'sum of the number', sum1);
+
+
+// decrimantal loop
+
+for(let n = 10; n >= 0; n--){
+  console.log(n);
+}
+
+
+let r = 50;
+while(r >=20){
+  console.log(r);
+  r--;
+}
 
 
 
-
+let m =0;
+while(m <20){
+  m++;
+  if( m % 5 ===0)
+    break;
+  
+  console.log(m);
+}
 
 
 
